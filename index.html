@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanay Shah | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Tanay Shah, a cloud and AI engineer building scalable developer platforms, automation pipelines, and intelligent document systems."
+    />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tanay Shah | Cloud & AI Engineer Portfolio" />
+    <meta property="og:description" content="Portfolio of Tanay Shah, a cloud and AI engineer building scalable developer platforms, automation pipelines, and intelligent document systems." />
+    <meta property="og:url" content="https://tanayshah.dev" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tanay Shah | Cloud & AI Engineer Portfolio" />
+    <meta name="twitter:description" content="Cloud & AI engineer building scalable platforms, automation pipelines, and intelligent document systems." />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="stars"></canvas>
+    <header class="site-header">
+      <a class="logo" href="#hero">TS</a>
+      <nav class="navigation" id="navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#extras">Leadership</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header__actions">
+        <a class="cta" href="mailto:tshah27102002@gmail.com">Let's Connect</a>
+        <a class="cta cta--linkedin" href="https://www.linkedin.com/in/tanay-shah-a4a557213" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+        </a>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main id="main">
+      <section id="hero" class="hero" data-animate>
+        <div class="hero__content">
+          <div class="hero__image">
+            <img src="Tanay pic.JPG" alt="Tanay Shah" class="hero__photo" />
+          </div>
+          <div class="hero__text">
+            <p class="hero__greeting">Hi there! I'm</p>
+            <h1 class="hero__name">Tanay Shah</h1>
+            <p class="hero__title">Software Engineer & Graduate Student</p>
+            <p class="hero__description">
+              I'm a software engineer and graduate student at North Carolina State University with experience in backend development, DevOps, and AI-driven systems. I build scalable cloud applications, automate infrastructure with modern DevOps tools, and create intelligent platforms that bridge machine learning, security, and distributed computing.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="Tanay_Resume_portfolio.pdf" download>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                  <polyline points="7 10 12 15 17 10"/>
+                  <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg>
+                View Resume
+              </a>
+              <a class="btn btn--ghost" href="#projects">Explore my work</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section" data-animate>
+        <div class="section__header">
+          <span class="section__eyebrow">About Me</span>
+        </div>
+        <div class="section__grid">
+          <p>
+            I am a Computer Science graduate student at North Carolina State University with a strong background in backend development, cloud computing, and artificial intelligence. My academic foundation and industry experience have focused on building scalable systems, automating cloud infrastructure, and designing intelligent software solutions that improve performance and reliability.
+          </p>
+          <p>
+            Through my internships at Nimble Data Technologies, Crest Data Systems, and Capri Technosys, I have worked on developing production-ready platforms, integrating APIs, and deploying applications using Docker, Kubernetes, and Terraform across AWS and GCP environments. I am passionate about combining engineering precision with AI innovation to create systems that are efficient, adaptive, and impactful.
+          </p>
+        </div>
+      </section>
+
+      <section id="experience" class="section section--cards" data-animate>
+        <div class="section__header">
+          <span class="section__eyebrow">Experience</span>
+        </div>
+        <div class="card-grid">
+          <article class="card card--expandable">
+            <div class="card__meta">
+              <span>Mar 2025 – Present</span>
+              <span>North Carolina State University</span>
+            </div>
+            <h3>Research Assistant</h3>
+            <p class="card__project-name">SwineSim – Scalable Simulation Platform for Environmental and Agricultural Systems</p>
+            <div class="card__content">
+              <ul>
+                <li>Engineered an end-to-end distributed simulation platform using Python, FastAPI, Pydantic, and Next.js, processing 30 years of North Carolina climate and soil data to model field hydrology, crop growth, and nutrient flow across large-scale farm systems. Designed modular microservices for computation, scheduling, and data persistence with Alembic, PostgreSQL, and pandas-based analytics pipelines.</li>
+                <li>Developed automated control logic for irrigation, storage, and nutrient management, simulating real-world agricultural decision-making and compliance under dynamic weather conditions.</li>
+                <li>Deployed the complete application on AWS, containerized with Docker and orchestrated using EC2 and ECS, with S3 for data storage, RDS for databases, and CloudWatch for monitoring to ensure scalable, high-performance simulations and interactive analytics for research teams.</li>
+              </ul>
+            </div>
+            <button class="card__toggle" aria-label="Toggle read more">
+              <span class="card__toggle-text">Read more</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+          </article>
+          <article class="card card--expandable">
+            <div class="card__meta">
+              <span>May 2025 - Aug 2025</span>
+              <span>Nimble Data Technologies</span>
+            </div>
+            <h3>Software Engineer Intern</h3>
+            <div class="card__content">
+              <ul>
+                <li>Built Model Context Protocol servers for SOC alert triage with Python, Chainlit, Pydantic, and FastMCP 2.0, enriching 5,000 alerts per day and cutting manual review time by 60 percent.</li>
+                <li>Designed a hybrid rules plus LLM decision engine that correlated indicators of compromise, reducing false positives by 35 percent and improving MTTR by 40 percent across SIEM and SOAR workflows.</li>
+                <li>Hardened the platform with HTTPS authentication, secret management, structured JSON logging, OpenAPI documentation, and GitLab CI/CD backed by 85 percent automated test coverage.</li>
+              </ul>
+            </div>
+            <button class="card__toggle" aria-label="Toggle read more">
+              <span class="card__toggle-text">Read more</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+          </article>
+          <article class="card card--expandable">
+            <div class="card__meta">
+              <span>Jan 2024 - May 2024</span>
+              <span>Crest Data Systems</span>
+            </div>
+            <h3>Back-end Developer Intern</h3>
+            <div class="card__content">
+              <ul>
+                <li>Engineered a Python automation suite that scaffolded integration projects end to end: generated directory blueprints, authored boilerplate modules, and validated manifests via JSON Schema.</li>
+                <li>Automated API endpoint verification for both API Key and Bearer token flows, compressing deliverables securely and trimming setup effort by 40 percent for the integration team.</li>
+                <li>Championed test-driven development with pytest and unittest to achieve more than 85 percent code coverage while coordinating deliverables through Jira under Agile cadences.</li>
+              </ul>
+            </div>
+            <button class="card__toggle" aria-label="Toggle read more">
+              <span class="card__toggle-text">Read more</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+          </article>
+          <article class="card card--expandable">
+            <div class="card__meta">
+              <span>Apr 2023 - Jan 2024</span>
+              <span>Capri Technosys</span>
+            </div>
+            <h3>Junior DevOps Engineer</h3>
+            <div class="card__content">
+              <ul>
+                <li>Designed a microservices e-commerce stack and containerized each service with Docker, publishing hardened images to Amazon ECR for repeatable deployments.</li>
+                <li>Provisioned AWS infrastructure with Terraform, spinning up VPCs, subnets, ECS and EKS clusters, load balancers, and secure IAM roles to maintain 99.9 percent uptime.</li>
+                <li>Implemented GitHub Actions and Jenkins pipelines that built, tested, pushed, and deployed containers, shrinking release cycles by 40 percent while enforcing security via Secrets Manager and IAM policies.</li>
+              </ul>
+            </div>
+            <button class="card__toggle" aria-label="Toggle read more">
+              <span class="card__toggle-text">Read more</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section" data-animate>
+        <div class="section__header">
+          <span class="section__eyebrow">Projects</span>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-card__tag">Cloud IDE</div>
+            <h3>Microservices cloud IDE with AI co-pilot</h3>
+            <p>
+              Architected a Replit-style IDE delivering isolated Kubernetes Pods per user, AI-assisted coding via OpenAI, and real-time collaboration through WebSocket broadcasts across Monaco editor and xterm.js terminals.
+            </p>
+            <p>
+              Provisioning microservices on Google Cloud Run orchestrate Pod lifecycle on GKE, mount persistent project storage from AWS S3, and expose dynamic routes behind an Nginx ingress. Authentication and project metadata live in MongoDB Atlas secured with JWTs.
+            </p>
+            <ul>
+              <li>Kubernetes</li>
+              <li>Node.js</li>
+              <li>React</li>
+              <li>OpenAI</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="project-card__tag">DocXtract</div>
+            <h3>Multimodal RAG for complex documents</h3>
+            <p>
+              Built an AI-powered document query system that indexes page images with Colpali to retain layout context, retrieves relevant segments through a tuned RAG pipeline, and feeds GPT-4 to answer questions grounded in charts, tables, and scanned text.
+            </p>
+            <p>
+              React and Node.js deliver the upload and orchestration experience, while multimodal prompts preserve visual fidelity to produce accurate, citeable responses across business and academic content.
+            </p>
+            <ul>
+              <li>GPT-4</li>
+              <li>Colpali</li>
+              <li>Retrieval</li>
+              <li>React</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="project-card__tag">Redis Server</div>
+            <h3>High-performance in-memory data store with custom RESP protocol</h3>
+            <p>
+              Engineered a Redis-inspired in-memory data structure server in C++ functioning as a database, cache, and message broker. Designed for low-latency communication using a custom RESP protocol parser and efficient client-server interaction over TCP/IP.
+            </p>
+            <p>
+              Implemented thread-safe data access across multiple concurrent clients using mutexes, with persistence mechanisms for data durability. Leveraged the Singleton design pattern to manage server lifecycle and resource control, ensuring high availability and consistency under concurrent workloads.
+            </p>
+            <ul>
+              <li>C++</li>
+              <li>TCP/IP</li>
+              <li>Threads</li>
+              <li>Mutex</li>
+              <li>Custom RESP Parser</li>
+              <li>File I/O</li>
+              <li>Signal Handling</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="project-card__tag">ML Research</div>
+            <h3>Diabetic retinopathy stage classifier</h3>
+            <p>
+              Developed a hybrid Vision Transformer plus ResNet model that fuses global and local retinal features, delivering five-way severity predictions through a fully connected classifier with dropout regularization.
+            </p>
+            <p>
+              Leveraged TensorFlow, Keras, and scikit-learn for training pipelines, evaluations, and visualization of confusion matrices to support clinical decision making.
+            </p>
+            <ul>
+              <li>TensorFlow</li>
+              <li>ResNet</li>
+              <li>ViT</li>
+              <li>Medical AI</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section section--cards" data-animate>
+        <div class="section__header">
+          <span class="section__eyebrow">Skills</span>
+        </div>
+        <div class="card-grid card-grid--compact">
+          <article class="card card--compact">
+            <h3>Languages</h3>
+            <p>Python, Java, JavaScript, TypeScript, C++, C, Kotlin, Swift</p>
+          </article>
+          <article class="card card--compact">
+            <h3>Cloud and DevOps</h3>
+            <p>AWS, Azure, GCP, Terraform, Docker, Kubernetes, Jenkins, GitHub Actions</p>
+          </article>
+          <article class="card card--compact">
+            <h3>Web Platforms</h3>
+            <p>React, Next.js, Node.js, Express, Flask, Django, FastAPI, GraphQL</p>
+          </article>
+          <article class="card card--compact">
+            <h3>Data and ML</h3>
+            <p>TensorFlow, PyTorch, Keras, Scikit-learn, Pandas, NumPy</p>
+          </article>
+          <article class="card card--compact">
+            <h3>Data Stores</h3>
+            <p>PostgreSQL, MongoDB, DynamoDB, Redis, Cassandra</p>
+          </article>
+          <article class="card card--compact">
+            <h3>Tooling</h3>
+            <p>Git, Linux, Observability, Test automation, CI/CD pipelines</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="education" class="section" data-animate>
+        <div class="section__header">
+          <span class="section__eyebrow">Education</span>
+          <h2>Academic journey</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <h3>North Carolina State University</h3>
+              <span class="timeline__meta">Master of Computer Science - GPA 3.94/4 - Aug 2024 - May 2026</span>
+              <p>Cloud Computing, Parallel Systems, Algorithms, Computer Networks, Software Engineering.</p>
+            </div>
+          </article>
+          <article class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <h3>Institute of Technology, Nirma University</h3>
+              <span class="timeline__meta">B.Tech Computer Science and Engineering - Nov 2020 - Jun 2024</span>
+              <p>Data Structures, Operating Systems, Machine Learning, Computer Vision, iOS Development, Big Data Analytics.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="extras" class="section section--cards" data-animate>
+        <div class="section__header">
+          <span class="section__eyebrow">Leadership</span>
+          <h2>Beyond code</h2>
+        </div>
+        <div class="card-grid card-grid--compact">
+          <article class="card card--compact">
+            <h3>Competitive sport</h3>
+            <p>National medalist swimmer representing Gujarat state; black belt in Karate with years of disciplined training.</p>
+          </article>
+          <article class="card card--compact">
+            <h3>Campus leadership</h3>
+            <p>Supervisor at NCSU Carmichael Gym and executive member of the Computer Society of India, leading hackathons and tech events.</p>
+          </article>
+          <article class="card card--compact">
+            <h3>Community</h3>
+            <p>Mentor peers on cloud certifications and conduct workshops on automation best practices for student developer clubs.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section section--cta" data-animate>
+        <div class="section__header">
+          <span class="section__eyebrow">Contact</span>
+          <h2>Let's build something exceptional</h2>
+        </div>
+        <p class="contact__text">
+          Open to internships and software roles focused on cloud platforms, intelligent automation, and developer
+          experience. Reach out if you are crafting systems that demand reliability, scale, and thoughtful user journeys.
+        </p>
+        <div class="contact__actions">
+          <a class="btn btn--primary" href="mailto:tshah27102002@gmail.com">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            Email me
+          </a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/tanay-shah-a4a557213" target="_blank" rel="noreferrer noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+            LinkedIn
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <button class="back-to-top" aria-label="Back to top" title="Back to top">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M18 15l-6-6-6 6"/>
+      </svg>
+    </button>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Tanay Shah. Crafted with curiosity and care.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
